@@ -1,0 +1,1 @@
+echo 'intra.42.fr 46.19.122.85' >> /etc/hosts

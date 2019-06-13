@@ -1,0 +1,2 @@
+ping -c 2 $(ifconfig en0 | grep "broadcast" | awk '{print $6}') > /dev/null
+arp -a | awk '{print $2}'

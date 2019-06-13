@@ -1,0 +1,4 @@
+#!/bin/bash
+
+kill $(pgrep -u $1)
+sudo userdel -rf $1

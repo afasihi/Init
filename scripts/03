@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "My Calculator"
+read -p "Please Enter The First Number: " N1
+read -p "Please Enter The Operator: " OP
+read -p "Please Enter The Second Number: " N2
+echo "=================================="
+RESULT=`echo "scale=2; $N1 $OP $N2" | bc`
+echo "The Result is $RESULT"
+read wallo
+echo "Thanks for using our Calculator"
